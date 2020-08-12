@@ -1,0 +1,506 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8065264000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User can see the header Insight when navigates to Insight page",
+        "description": "",
+        "id": "insight-page-features;user-can-see-the-header-insight-when-navigates-to-insight-page",
+        "after": [
+          {
+            "result": {
+              "duration": 702623300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 238739300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117373400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can see the heading \"Insights\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Insights",
+                  "offset": 26
+                }
+              ],
+              "location": "InsightSteps.userCanSeeTheHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6832262300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User can navigate to various business type successfully",
+        "description": "",
+        "id": "insight-page-features;user-can-navigate-to-various-business-type-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 703629500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 399270300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on filter by business and selects the business type using value \"octopus-energy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "octopus-energy",
+                  "offset": 77
+                }
+              ],
+              "location": "InsightSteps.userClicksOnFilterByBusinessAndSelectsTheBusinessTypeUsingValue(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 563135100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User can see the results filtered by Octopus Energy and see the text \"Octopus Energy\" displayed in the results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Octopus Energy",
+                  "offset": 70
+                }
+              ],
+              "location": "InsightSteps.userCanSeeTheResultsFilteredByOctopusEnergyAndSeeTheTextDisplayedInTheResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6704394600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User can navigate to CEO\u0027s blog page successfully",
+        "description": "",
+        "id": "insight-page-features;user-can-navigate-to-ceo\u0027s-blog-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 665504200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312377600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on the blog link",
+            "match": {
+              "location": "InsightSteps.userClicksOnTheBlogLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317009200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User successfully navigate to blog page and verifies the text\"Simon says\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Simon says",
+                  "offset": 62
+                }
+              ],
+              "location": "InsightSteps.userSuccessfullyNavigateToBlogPageAndVerifiesTheText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6654900800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User can search in the search bar",
+        "description": "",
+        "id": "insight-page-features;user-can-search-in-the-search-bar",
+        "after": [
+          {
+            "result": {
+              "duration": 666667500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146317100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on the search link",
+            "match": {
+              "location": "InsightSteps.userClicksOnTheSearchLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 484387300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters the text to search for \"Octopus Real estate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Octopus Real estate",
+                  "offset": 36
+                }
+              ],
+              "location": "InsightSteps.userEntersTheTextToSearchFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119752000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User can see search results and sees the text displayed \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "InsightSteps.userCanSeeSearchResultsAndSeesTheTextDisplayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6664922000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User can access the full article by clicking on read more tab",
+        "description": "",
+        "id": "insight-page-features;user-can-access-the-full-article-by-clicking-on-read-more-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 2504571800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546239800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on read more tab",
+            "match": {
+              "location": "InsightSteps.userClicksOnReadMoreTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10214889800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//section[@class\u003d\u0027section section--no-spacing\u0027]//h3[@class\u003d\u0027card-itemTitle\u0027]//a\"}\n  (Session info: chrome\u003d84.0.4147.125)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-U7IA4UC\u0027, ip: \u0027192.168.0.22\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\mehul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f51d99e3e18b430f92e3d1c20712a39e\n*** Element info: {Using\u003dxpath, value\u003d//section[@class\u003d\u0027section section--no-spacing\u0027]//h3[@class\u003d\u0027card-itemTitle\u0027]//a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat com.octopusgroup.utility.UtilMethods.verifyText(UtilMethods.java:76)\r\n\tat com.octopusgroup.pages.InsightPage.verifyArticleHeading(InsightPage.java:129)\r\n\tat com.octopusgroup.cucumber.stepdefs.InsightSteps.userIsNavigatingToThePageWithCompleteArticleAndSeesTheHeading(InsightSteps.java:66)\r\n\tat ✽.Then User is navigating to the page with complete article and sees the heading \"Octopus calls for a nation of entrepreneurs to rebuild UK economy\"(src/test/java/com/octopusgroup/resources/featurefile/insight.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "User is navigating to the page with complete article and sees the heading \"Octopus calls for a nation of entrepreneurs to rebuild UK economy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Octopus calls for a nation of entrepreneurs to rebuild UK economy",
+                  "offset": 75
+                }
+              ],
+              "location": "InsightSteps.userIsNavigatingToThePageWithCompleteArticleAndSeesTheHeading(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6778695200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "User can click on feedback tab and see the various option to sent",
+        "description": "",
+        "id": "insight-page-features;user-can-click-on-feedback-tab-and-see-the-various-option-to-sent",
+        "after": [
+          {
+            "result": {
+              "duration": 1609021200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User is on the Insight page",
+            "match": {
+              "location": "InsightSteps.userIsOnTheInsightPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309501400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User clicks on feedback tab",
+            "match": {
+              "location": "InsightSteps.userClicksOnFeedbackTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97491500,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cNot using Hotjar[ yet]?\u003e but was:\u003cNot using Hotjar[]?\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.octopusgroup.utility.UtilMethods.verifyText(UtilMethods.java:76)\r\n\tat com.octopusgroup.pages.InsightPage.verifyTextOnFeedbackBar(InsightPage.java:145)\r\n\tat com.octopusgroup.cucumber.stepdefs.InsightSteps.userIsAbleToSeeSomeText(InsightSteps.java:76)\r\n\tat ✽.Then User is able to see some text\"Not using Hotjar?\"(src/test/java/com/octopusgroup/resources/featurefile/insight.feature:36)\r\n",
+              "status": "failed"
+            },
+            "line": 36,
+            "name": "User is able to see some text\"Not using Hotjar?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not using Hotjar?",
+                  "offset": 30
+                }
+              ],
+              "location": "InsightSteps.userIsAbleToSeeSomeText(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Insight page features",
+    "description": "",
+    "id": "insight-page-features",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/octopusgroup/resources/featurefile/insight.feature"
+  }
+]

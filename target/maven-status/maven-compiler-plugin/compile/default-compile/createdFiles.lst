@@ -1,0 +1,5 @@
+com\octopusgroup\basepage\BasePage.class
+com\octopusgroup\browserselector\BrowserSelector.class
+com\octopusgroup\pages\InsightPage.class
+com\octopusgroup\loadproperty\LoadProperty.class
+com\octopusgroup\utility\UtilMethods.class

@@ -1,0 +1,14 @@
+BDD FrameWork:
+
+I.	    I have created a maven project using the ‘maven-achetype-quickstart’ for build.
+II.     Using the Page Object Model approach, I have created separate package to store ‘pages’ and certain utility functions in these packages: ‘loadproperty’,
+        ‘browserselector’ & ‘utility’. This allows for code re-usability. 
+III.	I have created a ‘resources’ directory under ‘test’ which contains the property & configuration files which contain user-defined ‘key-value’ pairs which
+        allows for efficient maintenance if any properties needs to be changed.
+IV.	    The tests can be executed through the ‘CukeTest’ runner class which can be found under ‘test-cucumber’ package. Once the tests have been executed,
+        you will find 2 packages created under ‘main’ namely ‘logs’ & ‘screenshots’ which contain the logs & any screenshots of any failed scenarios. 
+V.	    For reporting purpose, I have incorporated the extent report, this report will be generated inside the ‘target’ folder under the ‘Extent_Reports’ folder as a ‘report.html’ file.
+        This report enables user to define how they want to view it: Features, Categories/tags, Author, Exceptions, Dashboard & Status.
+VI.     The test can also be executed from command prompt with command 'mvn clean test'.To run this test we need to be in our project location.
+
+

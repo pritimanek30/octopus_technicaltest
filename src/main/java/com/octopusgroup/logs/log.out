@@ -1,0 +1,15 @@
+2020-08-12 09:08:782 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:363 INFO  InsightPage :60 - Verifying the heading Insights when user navigates to https://octopusgroup.com/insights/
+2020-08-12 09:08:74 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:310 INFO  InsightPage :68 - Selecting the business type from the dropdown menu using value
+2020-08-12 09:08:590 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:608 INFO  InsightPage :82 - Clicking on the blog link by Simon Rogerson
+2020-08-12 09:08:929 INFO  InsightPage :90 - Verifying the heading on the blog page
+2020-08-12 09:08:606 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:407 INFO  InsightPage :98 - Clicking on the search bar
+2020-08-12 09:08:895 INFO  InsightPage :106 - Entering the text we want to search for
+2020-08-12 09:08:16 INFO  InsightPage :114 - Verifying the search results for octopus real estate on search result page
+2020-08-12 09:08:693 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:905 INFO  InsightPage :122 - Clicking on read more tab and navigating to the article page
+2020-08-12 09:08:644 INFO  BrowserSelector :21 - Launching Chrome Browser
+2020-08-12 09:08:738 INFO  InsightPage :138 - Clicking on feedback tab

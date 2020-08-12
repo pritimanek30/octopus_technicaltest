@@ -1,0 +1,3 @@
+com\octopusgroup\cucumber\stepdefs\InsightSteps.class
+com\octopusgroup\cucumber\CukeTest.class
+com\octopusgroup\cucumber\Hooks.class
